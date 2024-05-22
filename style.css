@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{background-color: rgb(60, 88, 64);}
+
+header.nav{
+    display: flex;
+}
+.nav li{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+main{}
+
+.principal{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.verdadero{
+    display: flex;
+    align-items: center;
+}
+
+
+.img-iglesia{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    gap: 50px;
+    
+}
+
+
+.data-producto{
+    width: 50%;
+    
+}
+
+.container-iglesia{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.galeria-fotos{
+    flex-direction: column;
+    align-content: end;
+    display: block;
+    
+}
+
+h1{
+    font-weight: 500px;
+    font-size: 40px;
+    
+}
+.descripcion-producto{
+    display: flex;
+
+}
+.mapa{
+    display: flex;
+}
+.verdadero{
+    
+    color: white;
+    display: flex;
+}
+h2{
+    color: white;
+}
+p{
+    color: white
+}
+.galeria-fotos{
+    display: flex;
+    padding: 20px;
+    margin: 4px;
+
+    
+}
+
+footer{
+    text-align: end;
+}
+.social img{
+    width: 30px;
+    margin-right: 10px;
+    
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(103, 103, 201);
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+@media(max-width:480px){
+    main{
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    .galeria-fotos{
+        background-color: crimson;
+        
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
